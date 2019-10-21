@@ -1,0 +1,27 @@
+
+.surveyBackground {
+    margin-top: 30px;
+    background-image: url("../css/img/friendFinder.jpg");
+   
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.homeBackground {
+    margin-top: 30px;
+    background-image: url("../css/img/homeBackground.jpg");
+   
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.colorLetter {
+    background-color: rgba(18, 66, 12, 0.794);
+    color:white;
+    font-size: 15px;
+}
+.jumbotron{
+    opacity: .8;
+}
