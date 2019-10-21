@@ -1,17 +1,19 @@
 // Dependencies
-var friendsArray = require("../data/friends");
+var friends = require("../data/friends");
 
 module.exports = function(app) {
 
     app.get("/api/friends", function(req, res) {
-        res.json(friendsArray);
+        res.json(friends);
     });
 
     app.post("/api/friends", function(req, res){
-            
+            console.log(req.body.scores);
 
 // User Data
-    var user = req.body
+    var user = req.body;
+
+
 // ParseInt for scores
     for(var i = 0; i < user.scores.length; i++) {
         user.scores[i] = parseInt(user.scores[i]);
@@ -22,34 +24,30 @@ module.exports = function(app) {
     var friendDefault = 0;
     var minDiff = 40;
     
-   
 
-    
 
     // A for loop to individually compare the users new array input with friend scores.
-    for(var i = 0; i < friendsArray.length; i++) {
-
-        console.log(res.body);
-        
+    for (var i = 0; i < friends.length; i++) {
+       
         var totalDifference = 0;
         
-        for (var j = 0; j < friendsArray[i].scores.length; j++){
+        for (var j = 0; j < friends[i].scores.length; j++){
            
-            var difference = Math.abs(user.scores[j] - friendsArray[i].scores[j]);
+            var difference = Math.abs(user.scores[j] - friends[i].scores[j]);
             totalDifference += difference;
         }
         // For new minimums. friendDefault is changed to new minimum for next iteration comparisons.
-        if(totalDifference < minDiff) {
+        if (totalDifference < minDiff) {
         
         friendDefault = i;
         minDiff = totalDifference;
     }
 }
 // Once match is found, user is added to friend array.
-    friendsArray.push(user);
+friends.push(user);
 
 // Browser receives best match
-res.json(friendsArray[friendDefault]);
+res.json(friends[friendDefault]);
 
     });
 };
