@@ -51,7 +51,7 @@ var friends = [
     {
         // 5
         name:"Batman",
-        photo:"https://www.elsetge.cat/myimg/f/87-877452_batman-iphone-wallpapers-hd-14402560-high-definition-batman.jpg",
+        photo:"http://shoppopgallery.com/wp-content/uploads/2019/06/iphone-x-screensaver-iphone-6-hd-wallpapers-1080p-batman-wondeful-wallpaper-glamorous-0.jpg",
         scores:[
             "5",
             "5",
