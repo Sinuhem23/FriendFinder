@@ -3,19 +3,23 @@
     margin-top: 30px;
     background-image: url("../css/img/friendFinder.jpg");
    
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    width: 100%;
+    height: auto;
 }
 .homeBackground {
     margin-top: 30px;
     background-image: url("../css/img/homeBackground.jpg");
    
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    width: 100%;
+    height: auto;
    
 }
 .homeButton {
