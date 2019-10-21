@@ -27,16 +27,16 @@
     <div class="container ">
 
 
-        <a href="/home"
+        
+
+      <h2>Survey Questions<a class='homeButton' href="/home"
         ><button class="btn btn-lg btn-success">
           <span class="fa fa-list-alt"></span> Home
-        </button></a
-      >
-
-      <h2>Survey Questions</h2>
+        </button></a></h2>
       <hr />
 
-
+      <div class="aboutYOU">
+        <div class="solidLetters">
       <h3><strong>About You</strong></h3>
       <h4>Name (Required)</h4>
       <input type="text" id="name" class="form-control" required />
@@ -182,7 +182,7 @@
       <!-- Submit Button -->
       <button
         type="submit"
-        class="btn btn-primary btn-lg btn-block"
+        class="btn btn-lg btn-block buttonColor" 
         id="submit"
       >
         <i class="fa fa-check-circle" aria-hidden="true"></i> Submit
@@ -201,49 +201,49 @@
         </div>
       </footer>
     </div>
-
+    </div>
+  </div>
 
   <!-- Modal -->
   <div id="results-modal" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-  
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h2 class="modal-title"><strong>Best Match</strong></h2>
-          </div>
-          <div class="modal-body">
-            <h2 id="match-name"></h2>
-            <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title"><strong>Best Match</strong></h2>
         </div>
-  
+        <div class="modal-body">
+          <h2 id="match-name"></h2>
+          <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
+
     </div>
+  </div>
 
-    <script type="text/javascript">
-      // Chosen CSS
-      var config = {
-        ".chosen-select": {},
-        ".chosen-select-deselect": {
-          allow_single_deselect: true
-        },
-        ".chosen-select-no-single": {
-          disable_search_threshold: 10
-        },
-        ".chosen-select-no-results": {
-          no_results_text: "Oops, nothing found!"
-        },
-        ".chosen-select-width": {
-          width: "95%"
-        }
-      };
-
-      for (var selector in config) {
+  <script type="text/javascript">
+    // Chosen CSS
+    var config = {
+      ".chosen-select": {},
+      ".chosen-select-deselect": {
+        allow_single_deselect: true
+      },
+      ".chosen-select-no-single": {
+        disable_search_threshold: 10
+      },
+      ".chosen-select-no-results": {
+        no_results_text: "Oops, nothing found!"
+      },
+      ".chosen-select-width": {
+        width: "95%"
+      }
+    };
+    for (var selector in config) {
       $(selector).chosen(config[selector]);
     }
     // Capture the form inputs
@@ -257,8 +257,6 @@
             isValid = false;
           }
         });
-
-
         $(".chosen-select").each(function() {
           if ($(this).val() === "") {
             isValid = false;
@@ -285,7 +283,6 @@
             $("#q10").val()
           ]
         };
-
         // AJAX post the data to the friends API.
         $.post("/api/friends", userData, function(data) {
           // Grab the result from the AJAX post so that the best match's name and photo are displayed.
@@ -298,7 +295,7 @@
         alert("Please fill out all fields before submitting!");
       }
     });
-    </script>
+  </script>
 
     
   </body>

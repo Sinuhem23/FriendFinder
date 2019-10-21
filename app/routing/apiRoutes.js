@@ -2,11 +2,13 @@
 var friendsArray = require("../data/friends");
 
 module.exports = function(app) {
+
     app.get("/api/friends", function(req, res) {
         res.json(friendsArray);
     });
+
     app.post("/api/friends", function(req, res){
-            friendsArray.push(req.body);
+            
 
 // User Data
     var user = req.body
@@ -19,17 +21,24 @@ module.exports = function(app) {
     // MinDiff is the result of the one with the most minimum difference in scores
     var friendDefault = 0;
     var minDiff = 40;
+    
+   
 
+    
 
     // A for loop to individually compare the users new array input with friend scores.
     for(var i = 0; i < friendsArray.length; i++) {
+        
         var totalDifference = 0;
-        for (var f = 0; f < friendsArray[i].scores.length; f++){
-            var difference = Math.abs(user.scores[f] - friendsArray[i].scores[f]);
+        
+        for (var j = 0; j < friendsArray[i].scores.length; j++){
+           
+            var difference = Math.abs(user.scores[j] - friendsArray[i].scores[j]);
             totalDifference += difference;
         }
-     // For new minimums. friendDefault is changed to new minimum for next iteration comparisons.
-    if(totalDifference < minDiff) {
+        // For new minimums. friendDefault is changed to new minimum for next iteration comparisons.
+        if(totalDifference < minDiff) {
+        
         friendDefault = i;
         minDiff = totalDifference;
     }

@@ -5,19 +5,19 @@ var friendsArray = [
     {
         // 1
         name:"Johnny Bravo",
-        photo:"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj0-4iElazlAhXhmeAKHRqwCe4QjRx6BAgBEAQ&url=https%3A%2F%2Fvsbattles.fandom.com%2Fwiki%2FJohnny_Bravo&psig=AOvVaw2F3ZhQ1w0tOvq73LueBAiS&ust=1571706382423241",
-        scores:["5", "1", "4", "4", "5", "1", "2", "5", "4", "1"]
+        photo:"https://images-na.ssl-images-amazon.com/images/I/41OgxVYuO8L._SX425_.jpg",
+        scores:["1", "1", "1", "1", "1", "1", "1", "1", "1", "1"]
     },
     {
         // 2
         name:"Tiffany E",
-        photo:"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi71-mRlazlAhUImeAKHQ8XDGUQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.allthingsdogs.com%2Fblack-pug%2F&psig=AOvVaw0YDWsK-kiPOxY3jOxfX-MM&ust=1571706497152073",
-        scores:["5", "5", "2", "3", "5", "1", "6", "8", "3", "9"]
+        photo:"https://www.allthingsdogs.com/wp-content/uploads/2019/08/Black-Pug-Feature.jpg",
+        scores:["5", "5", "2", "3", "5", "1", "1", "1", "3", "1"]
     },
     {
         // 3
         name:"Doug Funny",
-        photo:"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiMhPynlazlAhUBVd8KHb2WAiUQjRx6BAgBEAQ&url=https%3A%2F%2Ftwitter.com%2Fdougepisodes&psig=AOvVaw2cWbk8nOdCeSOSZPWoSCXB&ust=1571706525558344",
+        photo:"https://s2.glbimg.com/6H5JZeNfCRRx6REogLqpAq_Up2Y=/smart/e.glbimg.com/og/ed/f/original/2019/07/20/doug-4.jpg",
         scores:[
             "5",
             "1",
@@ -33,8 +33,8 @@ var friendsArray = [
     },
     {
         // 4
-        name:"Buttercup",
-        photo:"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi6qKHSlazlAhXQl-AKHUOHAvcQjRx6BAgBEAQ&url=http%3A%2F%2Fmrwgifs.com%2Fbuttercup-eye-twitch-gif-on-the-powerpuff-girls%2F&psig=AOvVaw1Or2NhO_3i7mq9E0DrfgW0&ust=1571706597841501",
+        name:"Tommy",
+        photo:"https://drawcentral.com/wp-content/uploads/2018/12/How-To-Draw-Tommy-Pickles-Rugrats-Main-1170x897.jpg",
         scores:[
             "5",
             "5",
@@ -51,7 +51,7 @@ var friendsArray = [
     {
         // 5
         name:"Batman",
-        photo:"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjax9_ylazlAhUFo1kKHVvRBa4QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.cinemablend.com%2Fnews%2F2482506%2Fthe-batman-an-updated-cast-list&psig=AOvVaw2FjrXbbhTawMIT4IvCRWwr&ust=1571706693958139",
+        photo:"https://miro.medium.com/max/1143/1*55C1yVBMp8Z5j4OxcSzRrQ.jpeg",
         scores:[
             "5",
             "5",

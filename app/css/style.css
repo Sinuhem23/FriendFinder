@@ -18,10 +18,27 @@
     background-attachment: fixed;
    
 }
+.homeButton {
+    float: right;
+}
+.solidLetters {
+    color: black;
+}
+.aboutYOU {
+    padding: 10px;
+    margin-bottom: 10%;
+    background-color: whitesmoke;
+    opacity: .8;
+}
 .colorLetter {
     background-color: rgba(18, 66, 12, 0.794);
     color:white;
     font-size: 15px;
+}
+.buttonColor {
+    background-color:rgb(19, 109, 211);
+    color: white;
+    
 }
 .jumbotron{
     opacity: .8;
