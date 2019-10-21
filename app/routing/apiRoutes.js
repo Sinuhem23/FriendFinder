@@ -28,6 +28,8 @@ module.exports = function(app) {
 
     // A for loop to individually compare the users new array input with friend scores.
     for(var i = 0; i < friendsArray.length; i++) {
+
+        console.log(res.body);
         
         var totalDifference = 0;
         
@@ -51,3 +53,4 @@ res.json(friendsArray[friendDefault]);
 
     });
 };
+
