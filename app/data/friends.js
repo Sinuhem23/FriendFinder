@@ -11,8 +11,8 @@ var friends = [
     {
         // 2
         name:"Tiffany E",
-        photo:"https://www.allthingsdogs.com/wp-content/uploads/2019/08/Black-Pug-Feature.jpg",
-        scores:["5", "5", "2", "3", "5", "1", "1", "1", "3", "1"]
+        photo:"https://live.staticflickr.com/3206/2294891185_2243a57d49.jpg",
+        scores:["4", "4", "4", "4", "4", "4", "4", "4", "4", "4"]
     },
     {
         // 3
@@ -34,24 +34,24 @@ var friends = [
     {
         // 4
         name:"Tommy",
-        photo:"https://drawcentral.com/wp-content/uploads/2018/12/How-To-Draw-Tommy-Pickles-Rugrats-Main-1170x897.jpg",
+        photo:"https://i.pinimg.com/736x/fe/2a/30/fe2a30628f77aae5c5760dac10e5152b--old-cartoons-classic-cartoons.jpg",
         scores:[
-            "5",
-            "5",
-            "4",
-            "4",
-            "5",
-            "5",
             "2",
-            "5",
-            "4",
-            "5"
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
         ]
     },
     {
         // 5
         name:"Batman",
-        photo:"https://miro.medium.com/max/1143/1*55C1yVBMp8Z5j4OxcSzRrQ.jpeg",
+        photo:"https://www.elsetge.cat/myimg/f/87-877452_batman-iphone-wallpapers-hd-14402560-high-definition-batman.jpg",
         scores:[
             "5",
             "5",
