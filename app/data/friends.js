@@ -19,16 +19,16 @@ var friends = [
         name:"Doug Funny",
         photo:"https://s2.glbimg.com/6H5JZeNfCRRx6REogLqpAq_Up2Y=/smart/e.glbimg.com/og/ed/f/original/2019/07/20/doug-4.jpg",
         scores:[
-            "5",
-            "1",
-            "4",
-            "1",
-            "5",
-            "1",
-            "1",
-            "5",
-            "1",
-            "1"
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
         ]
     },
     {
